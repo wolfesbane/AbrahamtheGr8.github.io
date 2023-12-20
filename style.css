@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+}
+form {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: white;
+    width: 30%;
+    margin: 9rem auto;
+    text-align: center;
+    border-radius: 12px;
+}
+h2 {
+    border-bottom: solid darkgray 1px;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Albert Sans', sans-serif;
+}
+input {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    padding: 0.8rem 0.2rem;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid darkgray 1px;
+}
+
+button {
+    margin-top: 2rem;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 9999em;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #310e68;
+    color: #fff;
+}
+button:hover {
+    background-color: #5f0f40;
+}

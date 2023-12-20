@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.lgout {
+    color: #4caf50;
+    text-decoration: none;
+}
+.lgout:hover {
+    color: #45a049;
+    text-decoration: underline;
+}
+.welcome {
+    text-align: center;
+    margin-top: 15rem;
+}
+h1 {
+    transform: translateY(-100%);
+    opacity: 0;
+    animation: dropAndSize 2s forwards 0.5s;
+}
+p {
+    animation: enter 3s ease-in-out forwards 2s;
+    opacity: 0;
+}
+@keyframes enter {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes dropAndSize {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
